@@ -1,10 +1,10 @@
-name: Build CI
+name: PyTest
 
 on: [push]
 
 jobs:
   make-testing:
-    name: Consistency testing from make file
+    name: PyTest checking
     runs-on: ubuntu-latest
     steps:
       - name: Checking out repository
